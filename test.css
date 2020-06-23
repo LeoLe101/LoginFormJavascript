@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+label {
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    display: inline-block;
+    border: 3px solid;
+    cursor: pointer;
+    margin-right: 3%;
+    width: 200px;
+    font-size: 20px;
+}
+
+#loginForm {
+    width: 90%;
+    height: 70%;
+    display: grid;
+    background-color: white;
+    border-radius: 7px;
+    border-color: black;
+    padding-left: 5%
+}
+
+#submitButton:hover {
+    display: inline-block;
+    background-color: greenyellow;
+}
+
+#cancelButton:hover {
+    display: inline-block;
+    background-color: red;
+}
+
+#container {
+    float: right;
+}
