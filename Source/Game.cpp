@@ -1,21 +1,12 @@
-#include "Base.h"
- 
-class Game
-{
+#include "../Header/Game.h"
 
-private:
-    
-public:
-    Game(/* args */);
-    ~Game();
-};
-
-Game::Game(/* args */)
+Game::Game()
 {
-    cout << "Game saying hello" << endl;
+    _log.getLog();
+    _log.Info("Initializing Game...");
 }
 
 Game::~Game()
 {
-    cout << "Game Ended!" << endl;
+
 }
